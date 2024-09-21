@@ -4,7 +4,7 @@ let nome: string = 'Marcos';
 let idade: number = 32;
 let adulto: boolean = true; 
 let simbolo: symbol = Symbol('qualquer-symbol');
-let big: bigint = 10n;
+// let big: bigint = 10n;
 
 // Array, posso escrever de duas formas
 let arrayDeNumeros: Array<number> = [1,2,3,4,5]; 
@@ -29,8 +29,5 @@ function potencia(num1: number, num2: number): number {
 
 const soma2: (x2: number, y2: number) => number = (x2,y2) => x2 + y2;
 
-const potencia2(valor1:number, valor2:number): number{
-    return valor1 ** valor2;
-}
 
 
